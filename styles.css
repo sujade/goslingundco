@@ -1,0 +1,98 @@
+* {
+  scroll-behavior: smooth;
+  font-family: Lato, sans-serif;
+  background-color: #fcfaf6;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f6eede;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#header-img {
+  width: 100px;
+  height: auto;
+  background-color: #f6eede;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  background-color: #f6eede;
+}
+
+nav ul,
+nav li,
+nav,
+h4 {
+  background-color: #f6eede;
+}
+
+.spacer-text{
+    text-align:center;
+    margin: auto;
+    padding-top: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f6eede;
+  border-radius: 25px;
+  max-width: 350px;
+  margin: auto;
+}
+
+#submit {
+  margin: 2em;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 3px;
+
+}
+
+.video-box {
+  text-align: center;
+}
+
+#What_do_we_do {
+  text-align: center;
+}
+
+#Why_Gosling_and_Co {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  flex-direction: column;
+  font-size: small;
+  text-align: right;
+
+
+}
+
+.whatdowedo {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.whygoslingundco {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media (emptyrule) {
+  
+}
